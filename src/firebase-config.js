@@ -6,14 +6,16 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC-H7PNeXtm7cv6TaQhnPEkkcBnfFgkxcQ",
-  authDomain: "sunil-sir-apna-bazaar-delaware.firebaseapp.com",
-  projectId: "sunil-sir-apna-bazaar-delaware",
-  storageBucket: "sunil-sir-apna-bazaar-delaware.appspot.com",
-  messagingSenderId: "351048275374",
-  appId: "1:351048275374:web:a8b00f87ab03eb5db8a43f",
-  measurementId: "G-X3LVF9E3PS"
+  apiKey: "AIzaSyCqnyLqu8_qCTEaHoLm5Y74cZNswTq75eU",
+  authDomain: "dating-app-25717.firebaseapp.com",
+  // databaseURL: "https://dating-app-25717-default-rtdb.firebaseio.com",
+  projectId: "dating-app-25717",
+  storageBucket: "dating-app-25717.appspot.com",
+  messagingSenderId: "1014202248157",
+  appId: "1:1014202248157:web:b7f40278b3b9b22c1f2434",
+  measurementId: "G-WP3ERQEHT0"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

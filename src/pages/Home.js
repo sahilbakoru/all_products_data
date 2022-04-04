@@ -6,7 +6,7 @@ import ReactHTMLTableToExcel from 'react-html-table-to-excel';
 
 function Home({ isAuth }) {
   const [postLists, setPostList] = useState([]);
-  const postsCollectionRef = collection(db, "barcode");
+  const postsCollectionRef = collection(db, "mechanicsbay_barcodes");
 
   useEffect(() => {
     const getPosts = async () => {
@@ -20,7 +20,7 @@ function Home({ isAuth }) {
 
   console.log(postLists);
   const deletePost = async (id) => {
-    const postDoc = doc(db, "barcode", id);
+    const postDoc = doc(db, "mechanicsbay_barcodes", id);
     await deleteDoc(postDoc);
   };
   return (
